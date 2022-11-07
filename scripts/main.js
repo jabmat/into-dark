@@ -12,15 +12,15 @@ myImage.onclick = () => {
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
-function setUserName() {
-	const myName = prompt('Please enter your name.');
-	if (!myName) {
-		setUserName();
-	} else {
-		localStorage.setItem('name', myName);
-		myHeading.textContent = `ID welcomes ${myName}`;
-	}
-}
+// function setUserName() {
+// 	const myName = prompt('Please enter your name.');
+// 	if (!myName) {
+// 		setUserName();
+// 	} else {
+// 		localStorage.setItem('name', myName);
+// 		myHeading.textContent = `ID welcomes ${myName}`;
+// 	}
+// }
 
 // if (!localStorage.getItem('name')) {
 // 	setUserName();
