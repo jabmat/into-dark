@@ -22,14 +22,13 @@ function setUserName() {
 	}
 }
 
+// if (!localStorage.getItem('name')) {
+// 	setUserName();
+// } else {
+// 	const storedName = localStorage.getItem('name');
+// 	myHeading.textContent = `ID welcomes ${storedName}`;
+// }
 
-if (!localStorage.getItem('name')) {
-	setUserName();
-} else {
-	const storedName = localStorage.getItem('name');
-	myHeading.textContent = `ID welcomes ${storedName}`;
-}
-
-myButton.onclick = () => {
-	setUserName();
-};
+// myButton.onclick = () => {
+// 	setUserName();
+// };
